@@ -1,0 +1,20 @@
+{
+  "name": "relspider-mongo",
+  "version": "0.0.1",
+  "description": "A MongoDB storage backend for relspider.",
+  "author": {
+    "name" : "Pelle Wessman",
+    "email": "pelle@kodfabrik.se",
+    "url"  : "http://kodfabrik.se/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mongoq": ">= 0.0.4",
+    "step": ">= 0.0.4"
+  },
+  "engines":  { "node" : ">=0.4.8" },
+  "main": "./lib/relspider-mongo",
+  "directories": {
+      "lib": "./lib"
+  }
+}
